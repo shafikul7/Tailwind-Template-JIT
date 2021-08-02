@@ -7,4 +7,5 @@
  of generating everything in advance at initial build time.
  
  npx tailwindcss -o ./build/style.css
+ 
  npx tailwindcss -i ./src/style.css -o ./build/style.css --JIT --purge="./*.html" --watch
