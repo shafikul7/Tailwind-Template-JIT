@@ -9,3 +9,5 @@
  npx tailwindcss -o ./build/style.css
  
  npx tailwindcss -i ./src/style.css -o ./build/style.css --JIT --purge="./*.html" --watch
+ 
+ npx tailwindcss init
